@@ -14,5 +14,21 @@ int main()
     return 0;
 }
 ```
-see /test directory
+Please, see /test directory
+
+# Installation
+
+```
+$> cmake .
+$> make
+$> sudo make install
+```
+
+# Uninstallation
+
+Go into compilation directory:
+
+```
+$> sudo xargs rm < install_manifest.txt
+```
 
