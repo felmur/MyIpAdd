@@ -3,6 +3,7 @@ Pure c++ library which determines our public ip address - no external dependenci
 
 # Usage
 
+```
 #include <iostream>
 #include <myipadd.h>
 using namespace std;
@@ -12,6 +13,6 @@ int main()
     cout << "My public ip address is: '" << m->ip << "'" << endl;
     return 0;
 }
-
+```
 see /test directory
 
